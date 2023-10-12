@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  word-break: keep-all;
+}
+
+/* html {
+  color-scheme: dark light;
+} */
+
+body {
+  /* min-height: 100vh; */
+  background-color: #091919;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  color: var(--Black);
+  &:disabled {
+    cursor: default;
+    background-color: var(--Gray_Secondary);
+  }
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
