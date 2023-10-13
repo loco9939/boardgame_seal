@@ -1,9 +1,0 @@
-header {
-  width: 390px;
-  border: 1px solid yellow;
-}
-
-.wrap {
-  display: flex;
-  justify-content: space-between;
-}

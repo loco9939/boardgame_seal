@@ -1,0 +1,17 @@
+.wrap {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  background-color: #727272;
+  width: 10rem;
+  height: 100vh;
+
+  & ul {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  & li {
+    margin-block: 1.2rem;
+  }
+}

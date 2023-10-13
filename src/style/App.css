@@ -1,0 +1,19 @@
+.App {
+  width: 390px;
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+}
+
+header {
+  background-color: #1f1f1f;
+}
+
+main {
+  padding: 0 0.8rem;
+  min-height: calc(100vh - 132px);
+}
+
+footer {
+  background-color: #1f1f1f;
+}

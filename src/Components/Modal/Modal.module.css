@@ -1,0 +1,38 @@
+.wrap {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dim {
+  position: absolute;
+  z-index: 3;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+
+  .title {
+    color: #121212;
+    padding: 1rem;
+  }
+
+  .btn-wrap {
+    color: #121212;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
